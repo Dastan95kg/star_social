@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'accounts',
     'posts',
     'groups',
-    'bootstrap4',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -126,3 +126,5 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
 
 LOGIN_REDIRECT_URL = 'test'
 LOGOUT_REDIRECT_URL = 'thanks'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
